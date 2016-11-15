@@ -83,13 +83,12 @@ function fetchAndDisplayGif(event) {
       // TODO
       // give the user a "Loading..." message while they wait
 
-      /* if () {
+      if (!isCurrentlyLoaded) {
       $("#feedback").attr("hidden", false);
       $("#feedback").text("Loading...");
       };
-      */
 
-  // closing bracket for else if
+  // closing bracket for the "else"
   }
 };
 
